@@ -67,6 +67,5 @@ Code inspiration comes from lmammino's [NorrisBot](https://github.com/lmammino/n
 
 ## License
 
-Licensed under [MIT License](LICENSE)
-
-© 2016 Jimmy Cann
+Licensed under [MIT License](https://github.com/yjimk/node-serverstatusbot/blob/master/LICENSE.md)
+©2016 Jimmy Cann
