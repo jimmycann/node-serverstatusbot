@@ -68,4 +68,5 @@ Code inspiration comes from lmammino's [NorrisBot](https://github.com/lmammino/n
 ## License
 
 Licensed under [MIT License](LICENSE)
-©2016 Jimmy Cann
+
+© 2016 Jimmy Cann
