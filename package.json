@@ -1,0 +1,36 @@
+{
+  "name": "node-serverstatusbot",
+  "version": "1.0.0",
+  "description": "A NodeJS bot to alert server downtime",
+  "main": "lib/serverstatusbot.js",
+  "scripts": {
+    "start": "node bin/bot.js"
+  },
+  "keywords": [
+    "Slack",
+    "bot",
+    "status",
+    "server",
+    "down"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yjimk/node-serverstatusbot"
+  },
+  "bugs": {
+    "url": "https://github.com/yjimk/node-serverstatusbot/issues"
+  },
+  "bin": {
+    "serverstatusbot": "bin/bot.js"
+  },
+  "author": {
+    "name": "Jimmy Cann",
+    "email": "mail@jimmycann.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1",
+    "lodash": "^4.15.0",
+    "slackbots": "^0.5.2"
+  }
+}
