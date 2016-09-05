@@ -41,7 +41,7 @@ ServerStatusBot is configurable through environment variables. There are several
 | `BOT_API_KEY`        | Your Slack API key (Mandatory) | |
 | `BOT_NAME`           | The name of your bot. Will default to 'serverstatusbot' (Optional) | |
 | `CHANNEL`            | The Slack channel to use. Will default to 'server-status' (Optional) | |
-| `HOSTS`              | A comma-delimted list of hosts to check (no spaces, include protocol). Will default to 'https://google.com' (Optional) | Make sure you add 'http://' https://' to the start (eg. http://google.com,https://yahoo.com) |
+| `HOSTS`              | A comma-delimted list of hosts to check (no spaces, include protocol). Will default to 'https://google.com' (Optional) | Make sure you add the protocol ('http://' or 'https://') to the start (eg. http://google.com,https://yahoo.com) |
 | `INTERVAL`           | Time in milliseconds between each check. Will default to 1000 (Optional) | Best not to go under 1000ms due to Slack API's [rate limits](https://api.slack.com/docs/rate-limits) |
 
 
@@ -67,4 +67,5 @@ Code inspiration comes from lmammino's [NorrisBot](https://github.com/lmammino/n
 
 ## License
 
-Licensed under [MIT License](LICENSE). ©2016 Jimmy Cann
+Licensed under [MIT License](LICENSE)
+©2016 Jimmy Cann
